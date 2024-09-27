@@ -40,8 +40,6 @@
     <PackageId>Downardo.CodeAnalyzers</PackageId>
     <PackageTags>roslyn code-analyzers</PackageTags>
     <PackageProjectUrl>https://github.com/downarowiczd/roslyn-analyzers</PackageProjectUrl>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <Version>1.0.0</Version>
   </PropertyGroup>
 </Project>
