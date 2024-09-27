@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Downardo.CodeAnalyzers</id>
+    <version>1.0.0.0</version>
+    <title>Downardo Roslyn Analyzers and Code Fixers</title>
+    <authors>downardo</authors>
+    <owners>downardo</owners>
+    <licenseUrl>hhttps://github.com/downarowiczd/roslyn-analyzers/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/downarowiczd/roslyn-analyzers</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Roslyn code analyzers and code fix providers for producing better code. See the GitHub project for the source.</description>
+    <summary>.NET Compiler Platform ("Roslyn") diagnostic analyzers and code fixes</summary>
+    <releaseNotes>1.0.0.0</releaseNotes>
+    <copyright>Copyright (c) 2024 by downardo and individual contributors</copyright>
+    <tags>Roslyn, analyzers</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="*.dll" target="analyzers\dotnet\cs" exclude="**\Microsoft.CodeAnalysis.*;**\System.Collections.Immutable.*;**\System.Reflection.Metadata.*;**\System.Composition.*;**\Microsoft.Build*.*;**\*test.dll" />
+    <!--<file src="tools\*.ps1" target="tools\" />  </files>-->
+</package>
